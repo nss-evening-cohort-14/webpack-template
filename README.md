@@ -87,6 +87,10 @@ const examplePromise = () => {
 - Add Environmental Variables (NOT REQUIRED for Apps that do not use API Keys, etc)
     - Any Enviromental varibales you are using in your `.env` file should be added to Netlify. 
         - Go to Site settings > Build & deploy > Environment > Environment variables and the keys and values there.
+
+- Update Firebase URL Settings
+
+In Firebase under Authentication select sign in methods, scroll to Authorized domains. Add your Netlify URL.
         
 ## More Info and Resources on Webpack
 - Visit the [Webpack documentation](https://webpack.js.org/concepts/) if you want to explore more.
