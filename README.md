@@ -89,8 +89,7 @@ const examplePromise = () => {
         - Go to Site settings > Build & deploy > Environment > Environment variables and the keys and values there.
 
 - Update Firebase URL Settings
-
-In Firebase under Authentication select sign in methods, scroll to Authorized domains. Add your Netlify URL.
+    - In Firebase under Authentication select sign in methods, scroll to Authorized domains. Add your Netlify URL.
         
 ## More Info and Resources on Webpack
 - Visit the [Webpack documentation](https://webpack.js.org/concepts/) if you want to explore more.
