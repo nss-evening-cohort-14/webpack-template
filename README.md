@@ -31,7 +31,7 @@ Webpack is a task runner and a module bundler. It originally started as a module
 
 ## Other Important Tidbits
 ### Console messages
-From this time forward, you will be expected to have a clean console in order for your assignments to be approved. This means that the use of `console.log` is acceptable **_(debugger is WAY better though)_** while developing, but will throw an error in your console like the image below, but all `logs` will have to be removed. You may use `console.error` and `console.warn` in your code however for messages. These need to all be removed before pushing to production unless they are vital info for the user.
+From this time forward, you will be expected to have a clean console in order for your assignments to be approved. This means that the use of `console.log` is acceptable **_(debugger is WAY better though)_** while developing, but will throw an error in your console like the image below, but all `logs` will have to be removed. You may use `console.error` and `console.warn` in your code however for messages. These need to all be removed before pushing to production unless they contain vital info for the user/developer.
 
 ![not acceptable](./documentation/notacceptable.png)
 
@@ -85,7 +85,7 @@ const examplePromise = () => {
 - Build Command: `npm run build`
 - Publish directory: `build`
 - Add Environmental Variables (NOT REQUIRED for Apps that do not use API Keys, etc)
-    - Any Enviromental varibales you are using in your `.env` file should be added to Netlify. 
+    - Any Enviromental variables you are using in your `.env` file should be added to Netlify. 
         - Go to Site settings > Build & deploy > Environment > Environment variables and the keys and values there.
 
 - Update Firebase URL Settings
