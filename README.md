@@ -6,7 +6,16 @@ Webpack is a task runner and a module bundler. It originally started as a module
 
 ## Topics
 - [Get Started](#get-started)
-- 
+- [Starting the Project](#starting-the-project)
+- [Other important tidbits](#other-important-tidbits)
+    - [Console messages](#console-messages)
+    - [Including images with webpack](#including-images-with-webpack)
+    - [Importing CSS](#importing-cssscss)
+    - [Using axios](#using-axios)
+    - [Deploying on Netlify](#deploying-on-netlify)
+- [Other Resources](#more-info-and-resources-on-webpack)
+
+___
 
 ## Get Started
 
